@@ -2,9 +2,26 @@
     font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
 table, th, td {
-  border: 2px solid black;
+  border: 1px solid black;
+table {
+    width: 80%;
+    overflow: auto
+}
+table, th, td {
+    border: none;
+}
+th, td{
+    font-weight:bold;	
+    color: #000;
+}
 
-.menu {
+#t1 {
+    background-color:rgb(150, 200, 160);
+}
+#t2 {
+background-color:rgb(200, 150, 160);
+}
+ .menu {
   width: 30%;
   float: left;
   padding: 1px;
@@ -17,31 +34,9 @@ table, th, td {
   padding: 1px;
   border: 2px solid black;
 }
-table {
-    width: 80%;
-    overflow: auto
-}
-table, th, td {
-    border: none;
-    color: #fff;
-}
-th, td{
-    font-weight:bold;	
-    color: #000;
-}
-col{
-    background-color:rgb(119, 119, 119);
-}
-#t1 {
-    background-color:rgb(150, 200, 160);
-}
-#t2 {
-background-color:rgb(200, 150, 160);
-}
  
 @media screen and (max-width: 925px) {
-     
-     table, thead, tbody, th, td, tr { 
+table, thead, tbody, th, td, tr { 
     display: block; 
 }
  
@@ -60,14 +55,5 @@ td:before {
     width: 45%; 
     padding-right: 10px; 
     white-space: nowrap;
-}
-.responsive {
-    width: 20%;
-    max-height: 200px;
-    width: auto;
-  }
-  .responsivesites { width: 50%;
-  max-width: 200px;
-  height: auto;
 }
 }
