@@ -16,6 +16,10 @@ th, td{
 #t1 {
     background-color: rgb(150, 200, 160);
 }
+#t1.hover{
+ background-color: rgb(200, 150, 160);
+}
+
 #t2 {
 background-color: rgb(200, 150, 160);
 }
@@ -24,6 +28,10 @@ background-color: rgb(200, 150, 160);
   float: left;
   padding: 1px;
   border: 2px solid black;
+}
+
+#t2.hover{
+ background-color: rgb(150, 200, 160);
 }
 
 .main {
