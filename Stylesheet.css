@@ -2,7 +2,7 @@
     font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
 table, th, td {
-  border: none;
+  border: collapse;
 
 .menu {
   width: 30%;
